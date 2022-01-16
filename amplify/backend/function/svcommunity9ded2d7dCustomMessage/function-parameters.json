@@ -1,0 +1,26 @@
+{
+  "trigger": true,
+  "modules": [
+    "verification-link"
+  ],
+  "parentResource": "svcommunity9ded2d7d",
+  "functionName": "svcommunity9ded2d7dCustomMessage",
+  "resourceName": "svcommunity9ded2d7dCustomMessage",
+  "parentStack": "auth",
+  "triggerEnvs": [
+    {
+      "key": "RESOURCENAME",
+      "value": "resourceName"
+    }
+  ],
+  "triggerDir": "/home/rafael/.nvm/versions/node/v16.13.0/lib/node_modules/@aws-amplify/cli/node_modules/@aws-amplify/amplify-category-auth/provider-utils/awscloudformation/triggers/CustomMessage",
+  "triggerTemplate": "CustomMessage.json.ejs",
+  "triggerEventPath": "CustomMessage.event.json",
+  "roleName": "svcommunity9ded2d7dCustomMessage",
+  "skipEdit": true,
+  "REDIRECTURL": "http://localhost:3000/dashboard",
+  "EMAILSUBJECT": "Please confirm your account",
+  "EMAILMESSAGE": "Please click on the link below to confirm your account",
+  "RESOURCENAME": "resourceName",
+  "enableCors": false
+}

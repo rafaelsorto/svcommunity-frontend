@@ -1,0 +1,18 @@
+{
+  "trigger": true,
+  "modules": [
+    "captcha-verify"
+  ],
+  "parentResource": "svcommunity9ded2d7d",
+  "functionName": "svcommunity9ded2d7dVerifyAuthChallengeResponse",
+  "resourceName": "svcommunity9ded2d7dVerifyAuthChallengeResponse",
+  "parentStack": "auth",
+  "triggerEnvs": [],
+  "triggerDir": "/home/rafael/.nvm/versions/node/v16.13.0/lib/node_modules/@aws-amplify/cli/node_modules/@aws-amplify/amplify-category-auth/provider-utils/awscloudformation/triggers/VerifyAuthChallengeResponse",
+  "triggerTemplate": "VerifyAuthChallengeResponse.json.ejs",
+  "triggerEventPath": "VerifyAuthChallengeResponse.event.json",
+  "roleName": "svcommunity9ded2d7dVerifyAuthChallengeResponse",
+  "skipEdit": true,
+  "RECAPTCHASECRET": "6LfUgCsdAAAAAFbGPZojdnsbcF53W5cz-p00xKIf",
+  "enableCors": false
+}

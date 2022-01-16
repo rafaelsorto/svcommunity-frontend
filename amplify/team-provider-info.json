@@ -1,0 +1,43 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-svcommunity-dev-193222-authRole",
+      "UnauthRoleArn": "arn:aws:iam::610059055109:role/amplify-svcommunity-dev-193222-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::610059055109:role/amplify-svcommunity-dev-193222-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-svcommunity-dev-193222-deployment",
+      "UnauthRoleName": "amplify-svcommunity-dev-193222-unauthRole",
+      "StackName": "amplify-svcommunity-dev-193222",
+      "StackId": "arn:aws:cloudformation:us-east-1:610059055109:stack/amplify-svcommunity-dev-193222/ffbd8a40-70eb-11ec-b39b-0a6e1fa77f9d",
+      "AmplifyAppId": "d333xxwvk4d7kf",
+      "AuthTriggerTemplateURL": "https://s3.amazonaws.com/amplify-svcommunity-dev-193222-deployment/amplify-cfn-templates/auth/auth-trigger-cloudformation-template.json"
+    },
+    "categories": {
+      "auth": {
+        "svcommunity9ded2d7d": {}
+      },
+      "function": {
+        "svcommunity9ded2d7dDefineAuthChallenge": {
+          "deploymentBucketName": "amplify-svcommunity-dev-193222-deployment",
+          "s3Key": "amplify-builds/svcommunity9ded2d7dDefineAuthChallenge-7230334575755456314b-build.zip"
+        },
+        "svcommunity9ded2d7dCreateAuthChallenge": {
+          "deploymentBucketName": "amplify-svcommunity-dev-193222-deployment",
+          "s3Key": "amplify-builds/svcommunity9ded2d7dCreateAuthChallenge-71706577455570437553-build.zip"
+        },
+        "svcommunity9ded2d7dVerifyAuthChallengeResponse": {
+          "RECAPTCHASECRET": "6LfUgCsdAAAAAFbGPZojdnsbcF53W5cz-p00xKIf",
+          "deploymentBucketName": "amplify-svcommunity-dev-193222-deployment",
+          "s3Key": "amplify-builds/svcommunity9ded2d7dVerifyAuthChallengeResponse-6d336f74597657766e46-build.zip"
+        },
+        "svcommunity9ded2d7dCustomMessage": {
+          "REDIRECTURL": "http://localhost:3000/dashboard",
+          "EMAILSUBJECT": "Please confirm your account",
+          "EMAILMESSAGE": "Please click on the link below to confirm your account",
+          "deploymentBucketName": "amplify-svcommunity-dev-193222-deployment",
+          "s3Key": "amplify-builds/svcommunity9ded2d7dCustomMessage-7262774854755333626e-build.zip"
+        }
+      }
+    }
+  }
+}

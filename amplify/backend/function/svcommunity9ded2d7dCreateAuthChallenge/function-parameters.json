@@ -1,0 +1,17 @@
+{
+  "trigger": true,
+  "modules": [
+    "captcha-create-challenge"
+  ],
+  "parentResource": "svcommunity9ded2d7d",
+  "functionName": "svcommunity9ded2d7dCreateAuthChallenge",
+  "resourceName": "svcommunity9ded2d7dCreateAuthChallenge",
+  "parentStack": "auth",
+  "triggerEnvs": [],
+  "triggerDir": "/home/rafael/.nvm/versions/node/v16.13.0/lib/node_modules/@aws-amplify/cli/node_modules/@aws-amplify/amplify-category-auth/provider-utils/awscloudformation/triggers/CreateAuthChallenge",
+  "triggerTemplate": "CreateAuthChallenge.json.ejs",
+  "triggerEventPath": "CreateAuthChallenge.event.json",
+  "roleName": "svcommunity9ded2d7dCreateAuthChallenge",
+  "skipEdit": true,
+  "enableCors": false
+}
